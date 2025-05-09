@@ -67,7 +67,7 @@ This attack used only 1RPS which eventually caused an OOM crash on 1k Reference 
 | ------------- | ------------- | ------------- |
 | --domain     | Target GitLab instance URL  | https://c40b-88-222-161-135.ngrok-free.app |
 | --file_name     | Payload file  | lfs_payload_3mb.json |
-| --threads     | Total number of threads | 7 |
+| --threads     | Total number of threads | 333 |
 | --delay     | Limits the creation of new threads - 1 is 1 RPS, 0.5 is 2RPS, etc.  | 1 |
 
 ## Code Explanation
