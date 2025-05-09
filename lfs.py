@@ -15,7 +15,7 @@ FILE_NAME_TO_COUNT = {
 # Configuration
 DEFAULT_DOMAIN = "https://c40b-88-222-161-135.ngrok-free.app"
 DEFAULT_PAYLOAD = "lfs_payload_3mb.json"
-NUM_THREADS = 7
+TOTAL_THREADS = 333
 DELAY_SECONDS = 1  # Delay between thread starts
 
 def print_verbose(message, thread_num=None):
@@ -209,7 +209,7 @@ def main():
     parser.add_argument("--file_name", 
                        choices=FILE_NAME_TO_COUNT.keys(),
                        help="Specific payload file to use (default: auto-detect)")
-    parser.add_argument("--threads", type=int, default=NUM_THREADS,
+    parser.add_argument("--threads", type=int, default=TOTAL_THREADS,
                        help="Number of total threads (default: %(default)d)")
     parser.add_argument("--delay", type=float, default=DELAY_SECONDS,
                        help="Delay between thread starts in seconds (default: %(default).1f)")
