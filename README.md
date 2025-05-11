@@ -70,21 +70,6 @@ From https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calcu
 
 This attack used only 1RPS which eventually caused an OOM crash on 1k Reference Architecture instance.
 
-### Theoretical Impact
-
-1. Advanced Monitoring Blind Spots: Alert Overload as a Smokescreen for Data Exfiltration
-
-DoS attacks are very noisy by nature—crashing services, flooding logs, and triggering alert storms. But that chaos can work in the attacker's favor. By overwhelming observability tools like Prometheus or Datadog with garbage metrics and cardinality explosions, an attacker can distract responders and degrade monitoring fidelity.
-
-A DoS on GitLab instance, for example, might not be the end goal—just the distraction. While teams scramble to stabilize GitLab, the attacker quietly hits a more valuable target elsewhere: cloud buckets, internal APIs, or CI-linked infrastructure.
-
-2. Cloud Provider Blacklisting/Suspension
-
-The attack causes 100%+ CPU usage over extended period of time.
-Providers like DigitalOcean, AWS, etc. use heuristic models to flag "suspicious" resource consumption. Legitimate causes (e.g., DDoS attacks, unoptimized code, or intensive computations) might be **mislabeled as abusive**, leading to temporary account suspension.
-
-Cryptojacking and Uncontrolled Resource Consumption are very similar in a way that they both use up computational resources and can result in massive financial damages, budget limit based account locks or even suspensions.
-
 ## Code Explanation
 
 `generate_lfs_objects(n)`
