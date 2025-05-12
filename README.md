@@ -46,7 +46,7 @@ Auto-scaling under attack can cause a cost spike, potentially breaching budget t
 
 If there's no auto-scaling and instance is default, recommended 8vCPU and 16GB ram:
 
-In Linux, an OOM (Out-of-Memory) crash is technically referred to as an "OOM Killer event" or "OOM-induced system termination." In POC video, it crashes in the last 20 seconds.
+In Linux, an OOM (Out-of-Memory) crash is technically referred to as an "OOM Killer event" or "OOM-induced system termination." In POC video, it crashes at ~2:30.
 
 ![Cloud Provider Response](images/cloud_provider_response.png)
 
@@ -92,28 +92,45 @@ Sends a test request and checks for HTTP 413 Payload Too Large errors. This is f
 
 Threaded function to send payloads to LFS endpoint.
 
-## Company Information
+## 💡 Company Information
 
-GitLab is a web-based DevOps platform that provides a complete CI/CD (Continuous Integration/Continuous Delivery) pipeline, allowing developers to plan, develop, test, and deploy code from a single application. It includes features for version control (using Git), issue tracking, code review, and more, streamlining the software development lifecycle.
+GitLab is a web-based DevOps platform that provides an integrated CI/CD pipeline, enabling developers to plan, develop, test, and deploy code seamlessly. Key features include:
 
-Who uses GitLab:
-GitLab is used by a wide range of organizations—from startups to large enterprises—for managing source code and automating development workflows. Notable large companies and organizations that use GitLab include:
+- Version Control (Git)
+- Issue Tracking 🐛
+- Code Review 🔍
+- CI/CD Automation 🚀
 
--Goldman Sachs
--Siemens
--NVIDIA
--T-Mobile
--NASA
+## 🏢 Who Uses GitLab?
 
-GitLab is popular among teams that value open-source solutions, integrated DevOps tools, and on-premise deployment options for security and compliance.
+GitLab is trusted by companies of all sizes, from startups to enterprises, including:
 
-Various branches and agencies within the U.S. Department of Defense (DoD) have adopted GitLab, particularly for secure, self-hosted DevSecOps environments. GitLab’s support for on-premise deployments, security features, and compliance tools make it well-suited for defense and government use, where data sensitivity and operational control are critical.
+| Company                                            | Industry                  | Description                                                                                                                   |
+| -------------------------------------------------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| [Goldman Sachs](https://www.goldmansachs.com/)     | Finance 💵                | A global investment bank using GitLab to modernize software pipelines and improve developer efficiency.                       |
+| [Siemens](https://www.siemens.com/)                | Engineering ⚙️            | A global tech powerhouse leveraging GitLab for collaborative development in industrial automation and digital infrastructure. |
+| [NVIDIA](https://www.nvidia.com/)                  | Technology 💻             | A leader in GPUs and AI computing, NVIDIA uses GitLab for scalable CI/CD and code management.                                 |
+| [T-Mobile](https://www.t-mobile.com/)              | Telecommunications 📱     | Uses GitLab to manage internal tools and rapidly deliver new digital services to customers.                                   |
+| [NASA](https://www.nasa.gov/)                      | Aerospace 🚀              | NASA utilizes GitLab for managing mission-critical code in scientific and engineering applications.                           |
+| [Sony](https://www.sony.com/)                      | Entertainment 🎮          | Uses GitLab to support development workflows across gaming, electronics, and entertainment platforms.                         |
+| [UBS](https://www.ubs.com/)                        | Banking 🏦                | A Swiss banking giant leveraging GitLab for secure, compliant DevOps in financial applications.                               |
+| [Lockheed Martin](https://www.lockheedmartin.com/) | Defense & Aerospace 🛡️   | Employs GitLab for secure software development in defense systems and space technologies.                                     |
+| [Shopify](https://www.shopify.com/)                | E-commerce 🛒             | Uses GitLab to scale DevOps practices and support its cloud-based e-commerce platform.                                        |
+| [ING](https://www.ing.com/)                        | Financial Services 💳     | A Dutch bank adopting GitLab to improve developer collaboration and accelerate delivery.                                      |
+| [CERN](https://home.cern/)                         | Scientific Research 🔬    | The European Organization for Nuclear Research uses GitLab to coordinate complex software across global teams.                |
+| [Splunk](https://www.splunk.com/)                  | Data Analytics 📊         | Relies on GitLab for managing code and automating builds in its data platform ecosystem.                                      |
+| [Comcast](https://corporate.comcast.com/)          | Media & Communications 📺 | Uses GitLab to streamline application delivery across their massive entertainment and broadband network.                      |
+| [Deutsche Telekom](https://www.telekom.com/)       | Telecommunications 🌍     | Applies GitLab for agile development and managing cloud-native telecom infrastructure.                                        |
+| [Alibaba](https://www.alibaba.com/)                | Tech & E-commerce 🧧      | One of the world’s largest tech firms, using GitLab to scale development across massive infrastructure.                       |
 
-For example:
+## 🛡️ GitLab in Defense
 
--Platform One, a DoD DevSecOps initiative, uses GitLab as part of its toolchain to modernize software development across military applications.
+GitLab is favored by U.S. Department of Defense (DoD) agencies for secure, self-hosted DevSecOps environments, offering:
 
--GitLab has achieved FedRAMP authorization, making it compliant with federal security requirements for cloud services.
+- On-Premise Deployment 🖥️
+- Security & Compliance 🔒
+
+Its ability to manage sensitive data and maintain operational control makes GitLab a key tool for government and defense sectors.
 
 ## Affected Websites
 
