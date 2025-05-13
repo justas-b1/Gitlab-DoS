@@ -58,7 +58,7 @@ In Linux, an OOM (Out-of-Memory) crash is technically referred to as an "OOM Kil
 
 **User Interaction (UI:N)** - There's no user interaction required.
 
-**Scope (S:C)** - Changed. Affects VM, which is above Gitlab application and also affects cloud hosting account if auto-scaling is enabled.
+**Scope (S:C)** - Changed. Affects the underlying VM hosting GitLab and the cloud hosting account, particularly if auto-scaling is enabled.
 
 **Integrity Impact (I:L)** - Given that the full VM crash occurs due to OOM, and the system needs a manual restart, the integrity impact can be categorized as Low for the following reasons:
 
