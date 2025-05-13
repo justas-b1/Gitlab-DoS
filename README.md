@@ -60,7 +60,13 @@ In Linux, an OOM (Out-of-Memory) crash is technically referred to as an "OOM Kil
 
 **Scope (S:C)** - Changed. Affects VM, which is above Gitlab application and also affects cloud hosting account if auto-scaling is enabled.
 
-**Integrity Impact (I:N)** - None. Might be low if temporary data is lost during VM crash.
+**Integrity Impact (I:L)** - Given that the full VM crash occurs due to OOM, and the system needs a manual restart, the integrity impact can be categorized as Low for the following reasons:
+
+- Temporary loss of in-progress operations (e.g., uncommitted Git changes, incomplete CI jobs).
+- Loss of unsaved data, but no permanent corruption of existing data.
+- The system is recoverable upon restart, though some operations are lost due to the interruption.
+
+The integrity impact is Low (I:L) because, while there is data loss, it is temporary and localized to specific operations that were interrupted due to the OOM crash.
 
 **Availability Impact (A:H)** - High. Instance crashes completely, unavailable for all users.
 
