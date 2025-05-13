@@ -140,7 +140,7 @@ Shodan query:
 http.title:"GitLab"
 ```
 
-Returns over 50,000 publicly exposed GitLab instances. Some of them might have public projects available via api/v4.
+Returns over 50,000 publicly exposed GitLab instances, some of which may have public projects available via api/v4 endpoint.
 
 ![Shodan](images/shodan_gitlab_self_hosted.PNG)
 
