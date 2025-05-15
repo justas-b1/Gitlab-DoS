@@ -14,15 +14,6 @@ Submitting them is like demanding a refund for a sandwich you didn’t order.
 
 [![PoC Video](https://img.youtube.com/vi/VGsuyPKELqo/maxresdefault.jpg)](https://youtu.be/VGsuyPKELqo)
 
-## Similar Vulnerability
-
-https://nvd.nist.gov/vuln/detail/CVE-2024-8233
-
-- Base Score: 7.5 HIGH
-- Vector:  CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-
-Issue link: https://gitlab.com/gitlab-org/gitlab/-/issues/480867
-
 ## Quick Start
 
 1. Clone the repository:
@@ -84,6 +75,15 @@ From https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calcu
 `When evaluating Availability impacts for DoS that require sustained traffic, use the 1k Reference Architecture. The number of requests must be fewer than the "test request per seconds rates" and cause 10+ seconds of user-perceivable unavailability to rate the impact as A:H.`
 
 This attack used only 1RPS which eventually caused an OOM crash on 1k Reference Architecture instance.
+
+## Similar Vulnerability
+
+https://nvd.nist.gov/vuln/detail/CVE-2024-8233
+
+- Base Score: 7.5 HIGH
+- Vector:  CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+
+Issue link: https://gitlab.com/gitlab-org/gitlab/-/issues/480867
 
 ## Code Explanation
 
