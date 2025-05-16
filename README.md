@@ -78,12 +78,12 @@ This attack used only 1RPS which eventually caused an OOM crash on 1k Reference 
 
 ## Similar Vulnerability
 
-https://nvd.nist.gov/vuln/detail/CVE-2024-8233
+https://nvd.nist.gov/vuln/detail/CVE-2024-8124
 
 - Base Score: 7.5 HIGH
 - Vector:  CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
 
-Issue link: https://gitlab.com/gitlab-org/gitlab/-/issues/480867
+Issue link: https://gitlab.com/gitlab-org/gitlab/-/issues/480533
 
 ## Code Explanation
 
