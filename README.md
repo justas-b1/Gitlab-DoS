@@ -80,6 +80,8 @@ This attack used only 1RPS which eventually caused an OOM crash on 1k Reference 
 
 https://nvd.nist.gov/vuln/detail/CVE-2024-8124
 
+An issue was discovered in GitLab CE/EE affecting all versions starting from 16.4 prior to 17.1.7, starting from 17.2 prior to 17.2.5, starting from 17.3 prior to 17.3.2 which could cause Denial of Service via sending a specific POST request.
+
 - Base Score: 7.5 HIGH
 - Vector:  CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
 
