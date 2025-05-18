@@ -2,14 +2,6 @@
 
 Uncontrolled Resource Consumption - 8vCPU &amp; 16GB RAM GCP Instance OOM Crash.
 
-Gitlab doesn't accept 99.9% of DoS vulnerabilities. This vulnerability is out-of-scope unfortunately 😔.
-
-`DoS vulnerabilities caused by unlimited input fields`
-
-Out-of-scope bugs are useless noise (🗑️) — they waste time chasing irrelevant issues that don’t impact the actual target, like reporting a typo in a login page’s footer. They distract from real threats, clog reports with garbage, and show you didn’t bother reading the rules.
-
-Submitting them is like demanding a refund for a sandwich you didn’t order.
-
 ## Video POC
 
 [![PoC Video](https://img.youtube.com/vi/VGsuyPKELqo/maxresdefault.jpg)](https://youtu.be/VGsuyPKELqo)
