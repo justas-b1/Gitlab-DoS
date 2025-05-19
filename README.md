@@ -26,7 +26,7 @@ python lfs.py --domain https://your-gitlab-domain.com
 | --domain     | Target GitLab instance URL  | https://c40b-88-222-161-135.ngrok-free.app |
 | --file_name     | Payload file  | lfs_payload_3mb.json |
 | --threads     | Total number of threads | 333 |
-| --delay     | Limits the creation of new threads - 1 is 1 RPS, 0.5 is 2RPS, etc.  | 1 |
+| --delay     | Limits the creation of new threads - 1 is 1 RPS, 0.5 is 2RPS, 0.33 is 3RPS, etc.  | 1 |
 
 ## Explanation
 
