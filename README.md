@@ -79,6 +79,14 @@ An issue was discovered in GitLab CE/EE affecting all versions starting from 16.
 
 Issue link: https://gitlab.com/gitlab-org/gitlab/-/issues/480533
 
+## What The Script Does
+
+This script tests Git LFS (Large File Storage) endpoints on a GitLab instance by sending concurrent HTTP POST requests using curl. It can auto-detect a working payload file (1MB or 3MB) by checking if the server accepts or rejects it. 
+
+If no payload file exists, it generates one with fake LFS object data. The script discovers the correct LFS endpoint by querying public GitLab projects. 
+
+Then it spawns multiple threads to send LFS batch requests with delays between each thread. Each thread logs detailed output, including timing and response info. After all threads complete, the script prints a summary.
+
 ## Code Explanation
 
 `generate_lfs_objects(n)`
