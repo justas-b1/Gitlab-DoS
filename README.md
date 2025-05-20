@@ -60,7 +60,7 @@ In Linux, an OOM (Out-of-Memory) crash is technically referred to as an "OOM Kil
 
 The integrity impact is Low (I:L) because, while there is data loss, it is temporary and localized to specific operations that were interrupted due to the OOM crash.
 
-**Availability Impact (A:H)** - High. Instance crashes completely, unavailable for all users.
+**Availability Impact (A:H)** - High. GCP Instance crashes due to OOM, requires manual restart.
 
 From https://gitlab-com.gitlab.io/gl-security/product-security/appsec/cvss-calculator/
 
@@ -153,7 +153,8 @@ Returns over 50,000 publicly exposed GitLab instances, some of which may have pu
 
 ![Shodan](images/shodan_gitlab_self_hosted.PNG)
 
-## ⚠️ Legal Disclaimer  
+## ⚠️ Legal Disclaimer
+
 This Proof-of-Concept (PoC) is provided **for educational purposes only**.  
 
 - **Authorized Use Only**: Test only on systems you own or have explicit permission to assess.  
