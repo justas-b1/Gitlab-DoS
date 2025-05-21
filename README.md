@@ -1,12 +1,12 @@
 # ⚠️ Legal Disclaimer
 
-This Proof-of-Concept (PoC) is provided **for educational purposes only**.  
+This Proof-of-Concept (PoC) is provided **educational and ethical research purposes**.  
 
-- **Authorized Use Only**: Test only on systems you own or have explicit permission to assess.  
-- **No Liability**: The author is not responsible for misuse or damages caused by this tool.  
-- **Ethical Responsibility**: Do not use this tool to violate laws or exploit systems without consent.  
+- ✅ **Authorized Use Only**: Test only on systems you own or have explicit permission to assess.  
+- 🚫 **No Liability**: The author is not responsible for misuse or damages caused by this tool/PoC.
+- ⚖️ **Ethical Responsibility**: Do not use this tool/PoC to violate laws or exploit systems without consent.  
 
-By using this software, you agree to these terms. 
+By using this software/PoC, you agree to these terms. 
 
 # Unauthenticated Gitlab DoS - POC Code
 
