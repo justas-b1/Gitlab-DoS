@@ -1,3 +1,13 @@
+# ⚠️ Legal Disclaimer
+
+This Proof-of-Concept (PoC) is provided **for educational purposes only**.  
+
+- **Authorized Use Only**: Test only on systems you own or have explicit permission to assess.  
+- **No Liability**: The author is not responsible for misuse or damages caused by this tool.  
+- **Ethical Responsibility**: Do not use this tool to violate laws or exploit systems without consent.  
+
+By using this software, you agree to these terms. 
+
 # Unauthenticated Gitlab DoS - POC Code
 
 Unpatched known vulnerability as of Friday, May 9, 2025. Version - 17.11.2 - Uncontrolled Resource Consumption - 8vCPU &amp; 16GB RAM GCP Instance OOM Crash.
@@ -160,13 +170,3 @@ http.title:"GitLab"
 Returns over 50,000 publicly exposed GitLab instances, some of which may have public projects available via api/v4 endpoint.
 
 ![Shodan](images/shodan_gitlab_self_hosted.PNG)
-
-## ⚠️ Legal Disclaimer
-
-This Proof-of-Concept (PoC) is provided **for educational purposes only**.  
-
-- **Authorized Use Only**: Test only on systems you own or have explicit permission to assess.  
-- **No Liability**: The author is not responsible for misuse or damages caused by this tool.  
-- **Ethical Responsibility**: Do not use this tool to violate laws or exploit systems without consent.  
-
-By using this software, you agree to these terms. 
