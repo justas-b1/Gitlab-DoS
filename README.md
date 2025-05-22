@@ -10,7 +10,7 @@ By using this software/PoC, you agree to these terms.
 
 # Unauthenticated Gitlab DoS - POC Code
 
-Unpatched known vulnerability as of Friday, May 9, 2025. Version - 17.11.2 - Uncontrolled Resource Consumption - 8vCPU &amp; 16GB RAM GCP Instance OOM Crash.
+Uncontrolled Resource Consumption - 8vCPU &amp; 16GB RAM GCP Instance OOM Crash.
 
 ## Video POC
 
